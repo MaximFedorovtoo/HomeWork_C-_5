@@ -32,8 +32,8 @@ int [] AddArray(int [] array)
         return number;
     }
     int sizeArr = EnterData("Введите размер массива: ");
-    int rndMin = EnterData("Введите минимальное значение: ");
-    int rndMax = EnterData("Ведите максимальное значение: ");
+    int rndMin = EnterData("Введите минимальное значение случайного числа: ");
+    int rndMax = EnterData("Ведите максимальное значение случайного числа: ");
     Array.Resize(ref array, sizeArr);
     for( int i =0; i < sizeArr; i++ )
     {
